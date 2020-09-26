@@ -1,0 +1,23 @@
+spring:
+  datasource:          
+            
+url: jdbc:oracle:thin:@localhost:1521:xe
+           
+ username: system
+            
+password: manager
+  
+jpa:
+    hibernate:
+      
+ddl-auto: update
+   
+properties:
+      
+hibernate:
+        
+show_sql: true
+        
+format_sql: true            
+       
+ dialate: org.hibernate.dialate.oracledilate
