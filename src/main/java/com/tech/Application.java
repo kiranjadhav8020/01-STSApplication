@@ -33,6 +33,8 @@ public class Application {
 		list.add(dtl2);
 		list.add(dtl3);
 		
+		//new exprements
+		
 		service.saveAllContactS(list);
 		
 	}
